@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Card Section */
+  .card {
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    width: 28rem;
+    height: 24rem;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .card1 h1 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+    font-weight: bold;
+  }
+  
+  .card1 h2 {
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    font-weight: semibold;
+  }
+  
+  .card1 {
+    background-color: #7AB2B2;
+    border: 2px solid #4D869C;
+  }
+  
+  .card2 {
+    background-color: #FFFFFF;
+    border: 2px solid #7AB2B2;
+  }
+  
+  .card2 h1 {
+    font-size: 1.5rem;
+    color: #4D869C;
+    margin-bottom: 3rem;
+    font-weight: bold;
+  }
+  
+  .card2 h2 {
+    font-size: 1rem;
+    color: #4D869C;
+    margin-bottom: 1rem;
+    font-weight: semibold;
+  }
+
+  /* Button Styles */
+  .login-btn {
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    width: 7rem;
+    height: 2rem;
+  }
+  
+  .btn-login-1 {
+    background-color: #FFFFFF;
+    color: #3A3960;
+    border: none;
+  }
+  
+  .btn-login-2 {
+    background-color: #3A3960;
+    color: #FFFFFF;
+    border: none;
+  }
+  
+  .btn-login-1:hover,
+  .btn-login-2:hover {
+    opacity: 0.8;
+  }
+  

@@ -1,0 +1,10 @@
+/* Footer styles */
+.footer {
+    background-color: #5E686D;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

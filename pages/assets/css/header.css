@@ -1,0 +1,30 @@
+/* Header Section */
+.header {
+    background-color: #4D869C;
+    padding: 1rem;
+    color: #FFFF;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  
+  .header nav ul li {
+    margin-left: 1.5rem;
+  }
+  
+  .header nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: semibold;
+    color: #FFFF;
+  }
